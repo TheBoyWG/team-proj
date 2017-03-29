@@ -1137,6 +1137,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
+
 .sort-box-sample .sort-arrow-down i
 {
     font-size: 20px;
@@ -1616,7 +1617,6 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 {
     margin-bottom: 40px;
     width: 100%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .prod-offer
@@ -5183,7 +5183,6 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     margin-bottom: 0;
     margin-left: 20px;
     margin-top: 25px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .products-style-line
@@ -9988,18 +9987,13 @@ html.js .loader
     {
         margin: 40px auto 10px;
     }
-@media only screen and (max-width:480px)
-{
     .btn-add-cart
     {
         max-width: 100%;
         width: 100%;
         float: none;
         margin: 0 auto;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
-}
-
     .title-product,.title-product:active,.title-product:focus,.title-product:hover
     {
         letter-spacing: .049em;
@@ -10249,15 +10243,5 @@ html.js .loader
 .scroll-top:hover
 {
     font-weight: normal;
-}
-
-.sort-sample:hover
-{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.stract-sample:hover
-{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 

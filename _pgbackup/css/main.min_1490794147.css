@@ -1065,8 +1065,6 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     background: #edecea;
     padding: 10px 16px;
     height: 43px;
-    transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .stract-sample .stract-four
@@ -1133,9 +1131,8 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     height: 43px;
     width: 138px;
     letter-spacing: .025em;
-    transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 
 .sort-box-sample .sort-arrow-down i
 {
@@ -1242,6 +1239,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     position: relative;
     border-radius: 3px;
     transition: box-shadow 0.2s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .stract-box-sample ul
@@ -1250,10 +1248,10 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     margin: 0;
     width: 100%;
     display: none;
+    box-shadow: 0 1px 2px -1px #7a7a7a;
     position: absolute;
     background: #fff;
     z-index: 2;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .stract-box-sample ul li
@@ -1616,7 +1614,6 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 {
     margin-bottom: 40px;
     width: 100%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .prod-offer
@@ -5183,7 +5180,6 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     margin-bottom: 0;
     margin-left: 20px;
     margin-top: 25px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .products-style-line
@@ -9988,18 +9984,13 @@ html.js .loader
     {
         margin: 40px auto 10px;
     }
-@media only screen and (max-width:480px)
-{
     .btn-add-cart
     {
         max-width: 100%;
         width: 100%;
         float: none;
         margin: 0 auto;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
-}
-
     .title-product,.title-product:active,.title-product:focus,.title-product:hover
     {
         letter-spacing: .049em;
@@ -10252,11 +10243,6 @@ html.js .loader
 }
 
 .sort-sample:hover
-{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.stract-sample:hover
 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
