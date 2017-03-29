@@ -164,9 +164,8 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 
 .header-top
 {
-    background: #172F37;
+    background: #edecea;
     min-height: 50px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .box-1675
@@ -204,10 +203,10 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 
 .top-left li a
 {
-    font-size: 16px;
-    color: #fff;
+    font-size: 13px;
+    color: #7b7b7b;
     font-family: PTSansRegular;
-    letter-spacing: .5px;
+    letter-spacing: .05em;
 }
 
 .top-left li a:active,.top-left li a:focus,.top-left li a:hover
@@ -217,18 +216,18 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 
 .top-left li ul
 {
-    width: 150px;
-    background: #172F37;
-    border-left: 2px solid #EAEDED;
-    border-right: 2px solid #EAEDED;
-    border-radius: 0 0 2px 2px;
+    width: 135px;
+    background: #fff;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-radius: 0 0 3px 3px;
     position: absolute;
     display: none;
     left: -15px;
-    top: 50px;
+    border-top: 2px solid #1c3942;
+    top: 48px;
+    box-shadow: 0 2px 3px #7b7b7b;
     z-index: 2;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 
-        		0 15px 12px rgba(0,0,0,0.22);
 }
 
 .top-left li ul li
@@ -245,13 +244,13 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     width: 100%;
     height: 100%;
     padding: 13px 15px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: .025em;
 }
 
 .top-left li ul li a:hover
 {
-    background: #304B53;
+    background: #edecea;
 }
 
 .top-left li .active
@@ -302,7 +301,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 .top-right li a
 {
     font-size: 13px;
-    color: #fff;
+    color: #7b7b7b;
     font-family: PTSansRegular;
     letter-spacing: .05em;
 }
@@ -315,18 +314,17 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 .top-right li ul
 {
     width: 135px;
-    background: #172F37;
-    border-left: 2px solid #EAEDED;
-    border-right: 2px solid #EAEDED;
+    background: #fff;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
     border-radius: 0 0 3px 3px;
     position: absolute;
     display: none;
     left: -15px;
     border-top: 2px solid #1c3942;
     top: 48px;
+    box-shadow: 0 2px 3px #7b7b7b;
     z-index: 2;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 
-        		0 15px 12px rgba(0,0,0,0.22);
 }
 
 .top-right li ul li
@@ -343,14 +341,13 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     width: 100%;
     height: 100%;
     padding: 13px 15px;
-    font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: .025em;
 }
 
 .top-right li ul li a:hover
 {
-    background: #304B53;
+    background: #edecea;
 }
 
 .top-right li .active
@@ -361,8 +358,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 .header-center
 {
     clear: both;
-    padding: 20px 0;
-    min-height: 100px;
+    min-height: 78px;
     display: table;
     width: 100%;
 }
@@ -394,8 +390,6 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 {
     height: 62px;
     background: #1c3942;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
-        		0 3px 6px rgba(0,0,0,0.23);
 }
 
 .header-bottom ul
@@ -484,20 +478,17 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 {
     width: calc(100% - 225px);
     border-left: 1px solid #edecea;
-    border-bottom: 1px solid #edecea;
-    border-top: 1px solid #edecea;
     float: left;
     height: 78px;
     cursor: pointer;
-    letter-spacing: .05em;
-    overflow: hidden;
+    letter-spacing: .03em;
 }
 
 .box-search .beats i
 {
-    font-size: 30px;
+    font-size: 22px;
     padding: 20px;
-    padding-right: 1em;
+    padding-right: 8px;
 }
 
 .beats
@@ -601,7 +592,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     background-size: 100% 100%;
 }
 
-.box-allcategories {position:relative;float:left;height:78px;padding:0;line-height:77px;color:#7b7b7b;font-size:16px;width:225px;text-align:center;cursor:pointer;border: 1px solid #edecea;letter-spacing:.4px;padding:0 53px 0 10px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;z-index:1}
+.box-allcategories {position:relative;float:left;height:78px;padding:0;line-height:77px;color:#7b7b7b;font-size:16px;width:225px;text-align:center;cursor:pointer;border:none;border-left:1px solid #edecea;border-right:1px solid #edecea;letter-spacing:.4px;padding:0 53px 0 10px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;z-index:1}
 
 .wrap-allcat
 {
@@ -645,7 +636,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 .col-size-logo,.col-size-search
 {
     position: relative;
-    min-height: 60px;
+    min-height: 77px;
     float: left;
 }
 
@@ -1002,16 +993,16 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 .title-sidebar
 {
     min-height: 50px;
-    background: #1c3942;
-    font-size: 14px;
-    color: #fff;
+    background: #edecea;
+    font-size: 16px;
+    color: #7b7b7b;
     text-transform: uppercase;
     font-family: PTSansBold;
-    line-height: 16px;
+    line-height: 25px;
     padding-left: 30px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    letter-spacing: .8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    letter-spacing: 1px;
     padding-right: 10px;
 }
 
@@ -1033,7 +1024,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 .content-sidebar ul li a:active,.content-sidebar ul li a:focus,.content-sidebar ul li a:hover
 {
     text-decoration: none;
-    background: #596F75 none repeat scroll 0 0;
+    background: #1c3942 none repeat scroll 0 0;
     border-right: 1px solid #1c3942;
     color: #fff;
 }
@@ -1401,11 +1392,12 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 
 .wrap-products-masonry
 {
-    width: 400px;
+    width: 465px;
     float: left;
-    border: 1px solid #BDBDBD;
-    margin: -1px -1px 0 0;
+    border: 1px solid #edecea;
+    margin: -1px 15px 0 0;
 }
+
 
 .wrap-products-masonry-two-cols
 {
@@ -1535,17 +1527,11 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 .descr-prod p
 {
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
-    color: #757575;
+    color: #7a7a7a;
     font-family: PTSansRegular;
-    letter-spacing: 0.10em;
-    text-overflow: ellipsis;
-    font-weight: lighter;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-align: left;
+    letter-spacing: .025em;
 }
 
 .descr-prod p a
@@ -1662,7 +1648,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
     background: #1c3942;
 }
 
-.block-bestseller {height:38px;background:#ff5252;color:#fff;display:block;line-height:38px;padding:0 21px;position:absolute;right:0;top:-1px;line-height:1;border-radius:0 0 0 2px;z-index:1}
+.block-bestseller {height:38px;background:#ff6c00;color:#fff;display:block;line-height:38px;padding:0 21px;position:absolute;right:0;top:-1px;line-height:1;border-radius:0 0 0 2px;z-index:1}
 
 .block-bestseller p
 {
@@ -2275,8 +2261,7 @@ body {font-family:sans-serif;font-size:16px;min-width:320px;height:100%;position
 
 .dropdown-menu
 {
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30),
-        		0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 2px 4px 9px -2px #d4d4d4;
     border-radius: 0 0 2px 2px;
     border-left: 1px solid #edecea;
     border-right: 1px solid #edecea;
@@ -8109,7 +8094,7 @@ html.js .loader
     }
     .wrap-products-masonry
     {
-        width: 30%;
+        width: 50%;
     }
     .products-style-line
     {
@@ -8914,7 +8899,7 @@ html.js .loader
     .col-content
     {
         width: 100%;
-        padding-bottom: 0px;
+        padding-bottom: 37px;
     }
     .block-bestseller
     {
@@ -8960,6 +8945,7 @@ html.js .loader
     .unit-one
     {
         padding-top: 0;
+        padding-right: 15px;
     }
     .block-sidebar
     {
@@ -9299,8 +9285,6 @@ html.js .loader
         bottom: 0;
         margin: auto;
         line-height: 56px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12),
-            		0 1px 2px rgba(0,0,0,0.24);
     }
     .logo-mob a
     {
@@ -10187,11 +10171,5 @@ html.js .loader
         background-position: -37px -101px;
         background-size: 121px 126px;
     }
-}
-
-.block-bestseller::before
-{
-    border-right: 14px solid #ff5252;
-    border-top: 21px solid #ff5252;
 }
 
